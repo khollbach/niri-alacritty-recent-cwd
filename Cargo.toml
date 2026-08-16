@@ -2,6 +2,8 @@
 name = "niri-alacritty-recent-cwd"
 version = "0.1.0"
 edition = "2024"
+description = "Script to get CWD of most recently focused Alacritty window, in niri"
+license = "MIT"
 
 [dependencies]
 anyhow = "1.0.104"
