@@ -12,7 +12,7 @@ $ cargo install niri-alacritty-recent-cwd
 Then in `~/.config/niri/config.kdl`, bind it to something like:
 ```
 binds {
-    Mod+T { spawn-sh "alacritty --working-directory $(niri-alacritty-recent-cwd)"; }
+    Mod+T { spawn-sh "alacritty --working-directory \"$(niri-alacritty-recent-cwd)\""; }
 }
 ```
 
